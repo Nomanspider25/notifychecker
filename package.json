@@ -1,0 +1,15 @@
+{
+  "name": "notifychecker",
+  "version": "1.0.0",
+  "description": "Dealer management + EMI reminder app for M/S Leon Bike Zone",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
